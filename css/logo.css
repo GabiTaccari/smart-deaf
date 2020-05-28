@@ -1,0 +1,12 @@
+.logo
+{
+	background: url(../images/logo-transparente.png) center center / 100px 70px no-repeat;
+}
+
+@media screen and (min-width: 950px)
+{
+	.logo
+	{
+		background: url(../img/logo-transparente.png) center center / 110px 80px no-repeat; /*Como a imagem é um pouco maior, para não perder qualidade, usa-se uma barra e coloca-se o tamanho*/
+	}
+}
